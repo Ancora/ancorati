@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Âncora Soluções em TI`,
-    description: `Especializada em sites para pequenas empresas e profissionais liberais.`,
+    description: `Desenvolvimento de aplicativos para pequenos negócios e profissionais liberais.`,
     author: `@ancorati`,
   },
   plugins: [

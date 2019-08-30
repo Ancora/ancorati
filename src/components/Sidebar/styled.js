@@ -5,7 +5,10 @@ export const SidebarWrapper = styled.aside`
   border-right: 1px solid #38444d;
   display: flex;
   flex-direction: column;
-  background: #000080;
+  background: -moz-linear-gradient(45deg, navy 50%, black);
+  background: -webkit-linear-gradient(45deg, navy 50%, black);
+  background: -o-linear-gradient(45deg, navy 50%, black);
+  background: linear-gradient(45deg, navy 50%, black);
   height: 100vh;
   position: fixed;
   padding: 1rem;
