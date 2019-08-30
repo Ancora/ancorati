@@ -15,6 +15,10 @@ const links = [
     label: "Facebook",
     url: "https://www.facebook.com/ancorati/",
   },
+  {
+    label: "Instagram",
+    url: "https://www.instagram.com/anderson.1965/",
+  },
 ]
 
 export default links
