@@ -7,7 +7,7 @@ module.exports = {
     title: `Âncora Soluções em TI`,
     description: `Desenvolvimento de aplicativos para pequenos negócios e profissionais liberais.`,
     author: `@ancorati`,
-    siteUrl: `https://ancora.eti.br`,
+    siteUrl: `https://ancorati.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
