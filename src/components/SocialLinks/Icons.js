@@ -3,6 +3,7 @@ import { Linkedin } from "styled-icons/fa-brands/Linkedin"
 import { Github } from "styled-icons/fa-brands/Github"
 import { Facebook } from "styled-icons/fa-brands/Facebook"
 import { Instagram } from "styled-icons/fa-brands/Instagram"
+/* import { Instagram } from "../../../static/assets/icons/favicon.svg" */
 
 const Icons = {
   Twitter,

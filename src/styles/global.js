@@ -64,5 +64,50 @@ const GlobalStyles = createGlobalStyle`
   	width: 100%;
   	height: auto;
   }
+  /* CSS Variables */
+  body.blue {
+    --borders: #38444d;
+    --texts: #8899a6;
+    --contentColor: #fff;
+    --highlight: #1fa1f2;
+    --mediumBackground: -moz-linear-gradient(45deg, navy 50%, black);
+    --mediumBackground: -webkit-linear-gradient(45deg, navy 50%, black);
+    --mediumBackground: -o-linear-gradient(45deg, navy 50%, black);
+    --mediumBackground: linear-gradient(45deg, navy 50%, black);
+    --background: -moz-linear-gradient(45deg, black, navy 50%, black);
+    --background: -webkit-linear-gradient(45deg, black, navy 50%, black);
+    --background: -o-linear-gradient(45deg, black, navy 50%, black);
+    --background: linear-gradient(45deg, black, navy 50%, black);
+    --white: #fff;
+    --black: #222;
+  }
+
+  body.green {
+    --borders: #38444d;
+    --texts: #8899a6;
+    --contentColor: #fff;
+    --highlight: #1fa1f2;
+    --mediumBackground: -moz-linear-gradient(45deg, darkgreen 50%, black);
+    --mediumBackground: -webkit-linear-gradient(45deg, darkgreen 50%, black);
+    --mediumBackground: -o-linear-gradient(45deg, darkgreen 50%, black);
+    --mediumBackground: linear-gradient(45deg, darkgreen 50%, black);
+    --background: -moz-linear-gradient(45deg, black, darkgreen 50%, black);
+    --background: -webkit-linear-gradient(45deg, black, darkgreen 50%, black);
+    --background: -o-linear-gradient(45deg, black, darkgreen 50%, black);
+    --background: linear-gradient(45deg, black, darkgreen 50%, black);
+    --white: #fff;
+    --black: #222;
+  }
+
+  body.light {
+    --borders: #dedede;
+    --postColor: #111;
+    --texts: #555555;
+    --highlight: #1fa1f2;
+    --mediumBackground: #f0f0f3;
+    --background: #fff;
+    --white: #fff;
+    --black: #222;
+  }
 `
 export default GlobalStyles
