@@ -37,7 +37,7 @@ const queries = [
   {
     query: contentQuery,
     transformer: ({ data }) => flatten(data.contents.edges),
-    indexName: "dev_CONTENTS",
+    indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
     settings,
   },
 ]
