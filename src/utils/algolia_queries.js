@@ -37,7 +37,7 @@ const queries = [
   {
     query: contentQuery,
     transformer: ({ data }) => flatten(data.contents.edges),
-    indexName: "Contents",
+    indexName: "dev_CONTENTS",
     settings,
   },
 ]
